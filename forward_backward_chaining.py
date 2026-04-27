@@ -1,4 +1,4 @@
-# ( {pozytywne}, {negatywne} )
+# ( {pozytywne}, {negatywne}, )
 RULES = [
     ({"ograniczenie do 50", "szybkość ponizej 50"}, set(), "prawidłowa predkosc"),
     (set(), {"prawidłowa predkosc"}, "nalezy zwolnic"),  # ~prawidłowa predkosc -> nalezy zwolnic
